@@ -3,29 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <div> 1/10</div>
-    <div class="question">dummy text</div>
-    <div>
-        <div class="answer">
-            <input type="radio" id="a" name="a">
-            <label for="a">Male</label>
-        </div>
-        <div class="answer">
-            <input type="radio" id="b" name="a" >
-            <label for="b">Male</label>
-        </div>
-        <div class="answer">
-            <input type="radio" id="c" name="a" >
-            <label for="c">Male</label>
-        </div>
-        <div class="answer">
-            <input type="radio" id="d" name="a" >
-            <label for="d">Male</label>
-        </div>
-        
-    </div>
+    
+    <label id="numOfQuestion"> 0/10</label>
+    <form id="form">
+        <p id="question">Click next to start</p>
+        <input id="answer" type="text">
+        <!-- <div>
+            <div class="answer">
+                <input type="radio" name="a" value="A">
+                <label class="choise" for="a">Male</label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="a" value="B" >
+                <label class="choise" for="b">Male</label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="a"value="C" >
+                <label class="choise" for="c">Male</label>
+            </div>
+            <div class="answer">
+                <input type="radio" name="a" value="D">
+                <label class="choise" for="d">Male</label>
+            </div>
+            
+        </div> -->
+    </form>
+    <br/>
+    <button id="next-page-btn" type="submit">Next</button>
+    <script src="quizz.js"></script>
 </body>
 </html>
