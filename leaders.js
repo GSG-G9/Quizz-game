@@ -9,7 +9,7 @@ let playerNmae = localStorage.getItem('name');
 let score = localStorage.getItem('Score');
 
 
-
+ourList.innerText = `Player name: ${playerNmae}  \n Score: ${score}`
 
 console.log({
     palyerName : playerNmae,
